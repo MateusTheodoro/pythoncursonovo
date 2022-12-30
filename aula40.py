@@ -10,22 +10,24 @@ while True:
 
         if operador == '+':
             print(f'O resultado da soma é: {nro1 + nro2}')
-            print('\n-- digite qualquer letra para sair --\n')
+            print('\n-- digite SAIR para sair. --\n')
         
         elif operador == '-':
             print(f'O resultado da subtração é: {nro1 - nro2}')
-            print('\n-- digite qualquer letra para sair --\n')
+            print('\n-- digite SAIR para sair. --\n')
 
         elif operador == '*':
             print(f'O resultado da multiplicação é: {nro1 * nro2}')
-            print('\n-- digite qualquer letra para sair --\n')
+            print('\n-- digite SAIR para sair. --\n')
 
         elif operador == '/':
             print(f'O resultado da divisão é: {nro1 / nro2}')
-            print('\n-- digite qualquer letra para sair --\n')
+            print('\n-- digite SAIR para sair. --\n')
         
         else:
             break
+    elif numero1 == 'sair' or numero1 == 'SAIR' or numero2 == 'sair' or numero2 == 'SAIR':
+        break
     else:
-        print('Digite apenas números:')
+        print('\nDigite apenas números e SAIR para sair.\n')
     
